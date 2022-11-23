@@ -1,0 +1,33 @@
+Python 3.9.13 | packaged by conda-forge | (main, May 27 2022, 16:50:36) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.33.0 -- An enhanced Interactive Python.
+
+runfile('D:/securities data/stallionDemo4fail.py')
+Traceback (most recent call last):
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\spyder_kernels\py3compat.py", line 356, in compat_exec
+    exec(code, globals, locals)
+
+  File "d:\securities data\stalliondemo4fail.py", line 93, in <module>
+    tft = TemporalFusionTransformer.from_dataset(
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\pytorch_forecasting\models\temporal_fusion_transformer\__init__.py", line 356, in from_dataset
+    return super().from_dataset(
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\pytorch_forecasting\models\base_model.py", line 1483, in from_dataset
+    return super().from_dataset(dataset, **new_kwargs)
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\pytorch_forecasting\models\base_model.py", line 996, in from_dataset
+    net = cls(**kwargs)
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\pytorch_forecasting\models\temporal_fusion_transformer\__init__.py", line 147, in __init__
+    self.input_embeddings = MultiEmbedding(
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\pytorch_forecasting\models\nn\embeddings.py", line 116, in __init__
+    self.init_embeddings()
+
+  File "C:\Users\Kirk\anaconda3\envs\finfTFT\lib\site-packages\pytorch_forecasting\models\nn\embeddings.py", line 123, in init_embeddings
+    embedding_size = min(embedding_size, self.max_embedding_size)
+
+TypeError: '<' not supported between instances of 'list' and 'int'
